@@ -2,7 +2,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).parent.parent
-ALLOWED_DOMAINS = "peps.python.org"
+ALLOWED_DOMAIN = "peps.python.org"
 PEP_NAME_PATTERN = r"PEP (?P<pep_number>\d+) – (?P<pep_name>.*)"
 TIME_FORMAT = "%Y-%m-%dT%H-%M-%S"
 RESULT_DIR = "results"
